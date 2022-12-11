@@ -1,6 +1,9 @@
 # string_t.h
 C strings with length
 
+## Questions
+* Can you make `string_t` compatible with `std::string` long string mode?
+
 ## Further reading
 \[1]: https://en.wikipedia.org/wiki/String_(computer_science)#Length-prefixed  
 \[2]: http://www.catb.org/esr/structure-packing/  
