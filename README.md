@@ -3,6 +3,8 @@ C strings with length
 
 ## Questions
 * Can you make `string_t` compatible with `std::string` long string mode?
+* Would it be preferrable to expose C wrappers to `std::string` if one is going
+to use the same underlying struct layout?
 
 ## Further reading
 \[1]: https://en.wikipedia.org/wiki/String_(computer_science)#Length-prefixed  
