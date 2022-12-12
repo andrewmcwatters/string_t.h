@@ -43,6 +43,7 @@ to use the same underlying struct layout?
 \[2]: http://www.catb.org/esr/structure-packing/  
 \[3]: https://joellaity.com/2020/01/31/string.html  
 \[4]: https://stackoverflow.com/questions/21694302/what-are-the-mechanics-of-short-string-optimization-in-libc
+\[5]: https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/string.h.html
 
 ## License
 GNU General Public License v2.0
