@@ -1,6 +1,38 @@
 # string_t.h
 C strings with length
 
+## SYNOPSIS
+```C
+#include "string_t.h"
+```
+
+## DESCRIPTION
+The _"string_t.h"_ header shall define **string_t**.
+
+### `string_t`
+```C
+struct string_t {
+    size_t  cap;
+    size_t  len;
+    char   *str;
+};
+```
+
+## EXAMPLES
+
+**Copying and freeing a string_t**
+```C
+const char *cs;
+struct string_t *s;
+
+cs = foo();
+s = (struct string_t *)malloc(sizeof string_t);
+s.len = s.cap = strlen(cs) + 1;
+s.str = strdup(cs);
+free(s.str);
+free(s);
+```
+
 ## Questions
 * Can you make `string_t` compatible with `std::string` long string mode?
 * Would it be preferrable to expose C wrappers to `std::string` if one is going
