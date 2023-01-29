@@ -27,9 +27,9 @@ struct string_t *s;
 
 cs = foo();
 s = (struct string_t *)malloc(sizeof string_t);
-s.len = s.cap = strlen(cs) + 1;
-s.str = strdup(cs);
-free(s.str);
+s->len = s->cap = strlen(cs) + 1;
+s->str = strdup(cs);
+free(s->str);
 free(s);
 ```
 
