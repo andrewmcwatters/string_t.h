@@ -1,5 +1,5 @@
 # string_t.h
-C strings with length
+A code snippet for C strings with length
 
 ## SYNOPSIS
 ```C
